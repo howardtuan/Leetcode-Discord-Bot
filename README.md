@@ -48,7 +48,8 @@ DAILY_CHALLENGE_CHANNEL_ID = 您的頻道ID
 創建一個 `.env` 檔案，並添加以下內容：
 
 ```
-DISCORD_BOT_TOKEN=您的機器人Token
+DISCORD_BOT_TOKEN="您的機器人Token"
+DAILY_CHALLENGE_CHANNEL_ID = 你的頻道ID
 ```
 
 請勿直接在代碼中硬編碼 Token，這會造成安全風險。
@@ -93,12 +94,8 @@ DISCORD_BOT_TOKEN=您的機器人Token
 - 定時任務執行情況
 - 錯誤訊息
 
-請根據日誌信息進行故障診斷。
+請根據錯誤信息進行故障診斷。
 
 ## 貢獻與反饋
 
-歡迎提出建議、報告問題或貢獻代碼。您可以通過 GitHub 或 Discord 聯繫我們。
-
----
-
-祝您編程愉快！
+歡迎提出建議、報告問題或貢獻代碼。您可以通過 GitHub 聯繫我們。
