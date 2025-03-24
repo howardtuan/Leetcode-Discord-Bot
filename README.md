@@ -40,7 +40,7 @@ DAILY_CHALLENGE_CHANNEL_ID = 您的頻道ID
 5. 將機器人 Token 設置在環境變數或配置文件中（推薦使用 `.env` 文件）
 6. 啟動機器人：
    ```
-   python dc_bot_pro.py
+   python leetcode_DC_bot.py
    ```
 
 ## 環境變數設定
