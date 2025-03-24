@@ -12,7 +12,7 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 # 設定固定的頻道 ID，用於發送每日挑戰
-DAILY_CHALLENGE_CHANNEL_ID = "你的頻道ID"
+DAILY_CHALLENGE_CHANNEL_ID = 你的頻道ID
 
 # GraphQL 查詢隨機題目
 def get_all_titles():
